@@ -5,7 +5,7 @@
 ### 安装
 
 ```shell
-$ composer require xiaoyulu/weather -vvv
+$ composer require cpken/weather -vvv
 ```
 
 ### 配置
@@ -16,7 +16,7 @@ $ composer require xiaoyulu/weather -vvv
 ### 使用
 
 ```
-use Xiaoyulu\Weather\Weather;
+use Cpken\Weather\Weather;
 
 $key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
@@ -192,7 +192,7 @@ array|string getWeather(string $city, string $type = 'base', string $format = 'j
 WEATHER_API_KEY=xxxxxxxxxxxxxxxxxxxxx
 ```
 
-可以用两种方式来获取 `Xiaoyulu\Weather\Weather` 实例：
+可以用两种方式来获取 `Cpken\Weather\Weather` 实例：
 
 ### 方法参数注入
 
