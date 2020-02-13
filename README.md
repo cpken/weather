@@ -73,10 +73,10 @@ $response = $weather->getWeather('深圳', 'all');
             "city": "深圳市", 
             "adcode": "440300", 
             "province": "广东", 
-            "reporttime": "2018-08-21 11:00:00", 
+            "reporttime": "2019-08-21 11:00:00", 
             "casts": [
                 {
-                    "date": "2018-08-21", 
+                    "date": "2019-08-21", 
                     "week": "2", 
                     "dayweather": "雷阵雨", 
                     "nightweather": "雷阵雨", 
@@ -88,7 +88,7 @@ $response = $weather->getWeather('深圳', 'all');
                     "nightpower": "≤3"
                 }, 
                 {
-                    "date": "2018-08-22", 
+                    "date": "2019-08-22", 
                     "week": "3", 
                     "dayweather": "雷阵雨", 
                     "nightweather": "雷阵雨", 
@@ -100,7 +100,7 @@ $response = $weather->getWeather('深圳', 'all');
                     "nightpower": "≤3"
                 }, 
                 {
-                    "date": "2018-08-23", 
+                    "date": "2019-08-23", 
                     "week": "4", 
                     "dayweather": "雷阵雨", 
                     "nightweather": "雷阵雨", 
@@ -112,7 +112,7 @@ $response = $weather->getWeather('深圳', 'all');
                     "nightpower": "≤3"
                 }, 
                 {
-                    "date": "2018-08-24", 
+                    "date": "2019-08-24", 
                     "week": "5", 
                     "dayweather": "雷阵雨", 
                     "nightweather": "雷阵雨", 
@@ -155,7 +155,7 @@ $response = $weather->getWeather('深圳', 'all', 'xml');
             <winddirection>西南</winddirection>
             <windpower>5</windpower>
             <humidity>94</humidity>
-            <reporttime>2018-08-21 16:00:00</reporttime>
+            <reporttime>2019-08-21 16:00:00</reporttime>
         </live>
     </lives>
 </response>
